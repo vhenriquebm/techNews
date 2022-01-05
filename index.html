@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   
     <meta charset="UTF-8">
     
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,129 +14,81 @@
 
     <title>Tech News</title>
 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
-    </style>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <script>alert("Aqui você encontra as melhores notícias sobre tecnologia")</script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 </head>
+
 <body>
 
-    <!--Inicio do cabeçalho-->
-<header class="cabeçalho">
-    <section class="area_logo">
-     TECH<SPAN class="news_logo">NEWS<i class="fas fa-microchip icone_logo"></i></SPAN>
-    </section>
-
-    <section class="Menu">
-        <a href="index.html" class="links">HOME <i class="fas fa-home icones_logo"></i></a>
-        <a href="" class="links">NEWS <i class="far fa-newspaper"></i></a>
-        <a href="" class="links"> <i class="fas fa-address-book"></i>CONTATO </a>
-    </section>
-
-
-<script>
-
-var nome = "Vitor"
-
-document.write ( 'Olá meu nome é' + nome)
-
-console.log (nome)
-
-var nome = "Stephanie"
-var nome = "Rose";
-
-
-
-function calculoDeJurosSimples (juros,valorPresente,tempo) {
-
-
-var resultado = juros * valorPresente * tempo
-
-return resultado 
-}
-
-
-var resultado = calculoDeJurosSimples (0.10, 1000, 2)
-
-documento.write ("O valor dos Juros é" + resultado)
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">TECH NEWS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Noticías</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ofertas</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Saiba mais
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
 
 
-</script>
-
-</header>
-
-<!--Fim do Cabeçalho-->
+      <div class="container-md bg-white painel">
 
 
-<!--Inicio do conteúdo principal-->
-
-<main>
-
-    <article class="painel_principal">
-
-        <section class="painel_noticias">
-
-            <section class="conteudo_noticias">
-                <h1>Mercado de desenvolvimento tem deficit e alta procura por profissionais</h1>
-                <img src="imagens/pexels-photo-3861958.jpeg" class="ajuste_imagens">
-                <p class="textos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis maxime autem dolorem eos odio vitae facilis, quo repellendus voluptas quas illo animi a atque fugit rem, laboriosam commodi! Necessitatibus, iusto.</p>
-            </section>
-
-            <section class="conteudo_noticias">
-                <h1>Noticia 1</h1>
-                <img src="imagens/pexels-photo-3861958.jpeg" class="ajuste_imagens">
-                <p class="textos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis maxime autem dolorem eos odio vitae facilis, quo repellendus voluptas quas illo animi a atque fugit rem, laboriosam commodi! Necessitatibus, iusto.</p>
-            </section>
+        <div class="titulos">
+            <h1> Crise de Microchips afeta o mercado global</h1>
+        </div>
 
 
-            <section class="conteudo_noticias">
-                <h1>Noticia 1</h1>
-                <img src="imagens/pexels-photo-3861958.jpeg" class="ajuste_imagens">
-                <p class="textos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis maxime autem dolorem eos odio vitae facilis, quo repellendus voluptas quas illo animi a atque fugit rem, laboriosam commodi! Necessitatibus, iusto.</p>
-            </section>
+<img src="imagens/Tecnologia_Processador.jpeg" class="img-fluid" alt="Imagem Processador">
+
+<br>
+<div class="titulos">
+    <h1> Como a tecnologia esta afetando a vida das pessoas?</h1>
+</div>
+
+<img src="imagens/pexels-photo-3861969 (1).jpeg" class="img-fluid" alt="Imagem Processador">
 
 
-            <section class="conteudo_noticias">
-                <h1>Noticia 1</h1>
-                <img src="imagens/pexels-photo-3861958.jpeg" class="ajuste_imagens">
-                <p class="textos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis maxime autem dolorem eos odio vitae facilis, quo repellendus voluptas quas illo animi a atque fugit rem, laboriosam commodi! Necessitatibus, iusto.</p>
-            </section>
-            
+<div class="titulos">
+    <h1> Mercado de programação esta em alta e com falta de profissionais qualificados</h1>
+</div>
 
-        </section>
-            
+<img src="imagens/pexels-photo-3861958.jpeg" class="img-fluid" alt="Imagem Processador">
 
-            <aside class="painel_lateral">
 
+
+
+
+
+
+      </div>
 
             
-            </aside>
 
 
-
-        
-
-    </article>
-
-
-
-
-
-
-</main>
-
-<!--Fim do conteudo principal-->
-
-<rooter>
-
-
-
-</rooter>
 
     
 </body>

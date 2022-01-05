@@ -1,85 +1,13 @@
-* {margin:0px
-    font-family: 'Share Tech', sans-serif;
+body {background-color: black;}
 
-}
 
-body {background-image: url(../imagens/pexels-photo-3861969\ \(1\).jpeg);
- ;}
-
-.cabeçalho { 
-color:rgb(255, 255, 255);
-display: flex;
-height: 20vh;
-justify-content: space-between;
-align-items: center;
-
-}
-
-.area_logo { margin: 10px;
-font-size: 40px;
-letter-spacing: 5px;
-font-family: 'Share Tech', sans-serif;
-}
-
-.icone_logo {color:rgb(76, 150, 57)}
-
-.Menu {margin: 10px;
-font-size: 30px;
-padding:50px;
-font-family: 'Share Tech', sans-serif;
-
+.painel {margin:10px;
+    
 }
 
 
-.news_logo {color: rgb(209, 89, 42);
-}
+.titulos { 
+    margin:20px auto;
+    display: flex;
+justify-content: center;}
 
-
-.links { color: white;
-text-decoration: none;
-padding: 10px;
-}
-
-
-.painel_principal { 
-display: flex;
-justify-content: space-between;
-}
-
-
-.painel_noticias { 
-width: 60%;
-height: 100%;
-margin: 10px auto;
-}
-
-
-.conteudo_noticias {display: flex;
-align-items: center;
-flex-direction: column;
-color: white;
-}
-
-.ajuste_imagens { max-width: 80%;
-    max-height: 100%;
-    margin:10px;
-    border-radius: 10px;
-
-
-}
-
-.painel_lateral { 
-width: 20%;
-background-color:rgb(0, 0, 0,0.3);
-margin: 10px;
-}
-
-h1 { color: white;
-margin: 10px;
-font-size: 25px;
-}
-
-.textos { 
-
-margin: 30px;
-}
